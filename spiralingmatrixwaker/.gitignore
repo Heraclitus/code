@@ -1,5 +1,12 @@
 HELP.md
-target/
+target/*.*
+target/classes
+target/generated*/
+target/test-classes/
+target/surefire-reports/
+target/maven-status/
+target/javadoc-bundle-options/
+!target/site/*
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
