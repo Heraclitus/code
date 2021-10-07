@@ -39,12 +39,12 @@ class MatrixWalkerApplicationTests {
 										"1",
 										1 /* 1 items x 1 arrays */)),
 					arguments("WalkingCollect_SingleElementTwoArraysMatrix_StringResultMatches", new WalkerTestCase(
-											new int[][] {
-												new int[]{1},
-												new int[]{2},
-											},
-											"1, 2",
-											2 /* 1 items x 2 arrays */)),
+										new int[][] {
+											new int[]{1},
+											new int[]{2},
+										},
+										"1, 2",
+										2 /* 1 items x 2 arrays */)),
 					arguments("WalkingCollect_SingleEmptyArrayMatrix_StringResultMatches", new WalkerTestCase(
 										new int[][] {
 											new int[]{},
